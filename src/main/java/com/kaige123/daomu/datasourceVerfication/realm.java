@@ -4,6 +4,7 @@ import org.apache.shiro.authc.*;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.realm.jdbc.JdbcRealm;
 
+//自定义验证的数据源，数据可从其他形式获得。不同于配置文件
 public class realm implements Realm {
     //    内存配置文件名称
     @Override
